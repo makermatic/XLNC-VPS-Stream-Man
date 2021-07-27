@@ -1,0 +1,45 @@
+# Node / Bower
+/bower_components
+/node_modules
+/build/bower_components
+/build/node_modules
+npm-debug.log
+
+# Datastores
+/db/**
+
+# Logs
+/logs/**
+
+# Configs
+/cfg
+
+# OS specific
+.DS_Store
+
+# IDE files
+/.idea
+/.vscode
+
+# Code coverage results
+/coverage
+.nyc_output
+
+# Test folders
+/_workingTest
+
+# Docs
+checkout
+docs
+.grunt
+
+# Assets
+/assets
+
+/instrumented
+
+# Node Modules
+/bundles/naggl_bundle/node_modules
+
+# Don't ignore .empty_directory files
+!.empty_directory

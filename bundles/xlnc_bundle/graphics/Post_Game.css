@@ -1,0 +1,67 @@
+body {
+    background: black 0% 0% no-repeat padding-box;
+    background-image: url("layouts/postGameScreen.png");
+    top: 0px;
+    left: 0px;
+    width: 1920px;
+    height: 1080px;
+    color: #FFFFFF;
+    opacity: 1;
+}
+
+.score {
+    /* Master transform properties for Scores*/
+    position: absolute;
+    text-align: center;
+    font: 82px Impact;
+    letter-spacing: 0px;
+    color: white;
+    opacity: 1;
+    top: 930px;
+    height: 32px;
+}
+
+#team1 {
+    /* Score for Team 1 */
+    left: 817px;
+}
+
+#team2 {
+    /* Score for Team 2 */
+    left: 1063px;
+}
+
+.team {
+    /* Master transform properties for Team Names */
+    position: absolute;
+    text-transform: capitalize;
+    color: white;
+    font: 92px Impact;
+    top: 922px;
+    width: 800px;
+    text-align: center;
+}
+
+#team1Name {
+    left: 100px;
+}
+
+#team2Name {
+    left: 1010px;
+}
+
+.teamImage {
+    position: absolute;
+    width: 182px;
+    height: 192px;
+}
+
+#team1Image {
+    top: 882px;
+    left: 7px;
+}
+
+#team2Image {
+    top: 882px;
+    left: 1733px;
+}
