@@ -31,4 +31,4 @@ The actual dashboard and graphics code is in the `bundles/xlnc_bundle` folder, b
 	- Yes, but it's reccomended it only you plan on running multiple instances on the same server  (Eg: run one instance on port 9090 and another on port 8080).
 	- To do this: navigate to `cfg/nodecg.json` and change the port number to whatever you please
 - Is multi-user support per instance coming?
-    - Yes, I'm working on it. BUT, given how layout links are token-based now, it might be working already, I have no idea.
+    - Yes, I'm working on it. BUT, given how layout links will be token-based when sign in comes up, it might be working already, I have no idea.
