@@ -6,7 +6,7 @@ The actual dashboard and graphics code is in the `bundles/xlnc_bundle` folder, b
 
 ## Setting up for the First Time
 
- 1. If you haven't already, deploy a server. OS can be anything, but I reccomend using Ubunto or any Linux/Unix-like OS
+ 1. If you haven't already, deploy a server. OS can be anything, but I reccomend using Ubunto or any Linux/Unix-like OS. NGINX/Apache is also handy for auto-redeploying.
  2. Install Node.js
 		   1. In the terminal, type in `sudo apt install nodejs`
 		   2. Once installed, double check the installed version using `node -v` (optional)
