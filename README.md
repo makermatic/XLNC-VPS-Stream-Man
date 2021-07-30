@@ -13,7 +13,7 @@ The actual dashboard and graphics code is in the `bundles/xlnc_bundle` folder, b
 		   3. Install NPM (very important for later) `sudo apt install npm`
 		   4. Double check the installed version using `npm -v`
 3. Clone the repo using git clone 
-4. Head into the repo folder using `cd XLNC VPS Stream Man`
+4. Head into the repo folder using `cd XLNC-VPS-Stream-Man`
 5. Type in `npm install production --save` (servers only)
 6. Run the server
 7. Copy each graphic link into their respective browser sources
