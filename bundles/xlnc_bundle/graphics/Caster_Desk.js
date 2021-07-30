@@ -57,28 +57,37 @@ function changeTeam1Image() {
     }
 
     // F8
-    if (team1Name.innerHTML.includes("F8") || team1Name.innerHTML.includes("f8")) {
+    else if (team1Name.innerHTML.includes("F8") || team1Name.innerHTML.includes("f8")) {
         t1Image.src = './teamLogos/F8_white.png'
     }
 
     // Lotus
-    if (team1Name.innerHTML.includes("Lotus") || team1Name.innerHTML.includes("lotus")) {
+    else if (team1Name.innerHTML.includes("Lotus") || team1Name.innerHTML.includes("lotus")) {
         t1Image.src = './teamLogos/Lotus_white.png'
     }
 
     // Nightless Kaqzi
-    if (team1Name.innerHTML.includes("Nightless") || team1Name.innerHTML.includes("nightless")) {
+    else if (team1Name.innerHTML.includes("Nightless") || team1Name.innerHTML.includes("nightless")) {
         t1Image.src = './teamLogos/Nightless Kaqzi_white.png'
     }
 
     // Pepe Gang
-    if (team1Name.innerHTML.includes("Pepe") || team1Name.innerHTML.includes("pepe")) {
+    else if (team1Name.innerHTML.includes("Pepe") || team1Name.innerHTML.includes("pepe")) {
         t1Image.src = './teamLogos/Pepe Gang.png'
     }
 
+    // Team Shiiiiish
+    else if (team1Name.innerHTML.includes("Pepe") || team1Name.innerHTML.includes("pepe")) {
+        t1Image.src = './teamLogos/defaultLogo.png'
+    }
+
     // Valkyrie
-    if (team1Name.innerHTML.includes("Valkyrie") || team1Name.innerHTML.includes("valkyrie")) {
+    else if (team1Name.innerHTML.includes("Valkyrie") || team1Name.innerHTML.includes("valkyrie")) {
         t1Image.src = './teamLogos/Valkyrie_white.png'
+
+        // Default Image
+    } else {
+        t1Image.src = './teamLogos/defaultLogo.png'
     }
 
     console.log('Team 1 image: ', t1Image.src)
@@ -94,28 +103,37 @@ function changeTeam2Image() {
     }
 
     // F8
-    if (team2Name.innerHTML.includes("F8") || team2Name.innerHTML.includes("f8")) {
+    else if (team2Name.innerHTML.includes("F8") || team2Name.innerHTML.includes("f8")) {
         t2Image.src = './teamLogos/F8.png'
     }
 
     // Lotus
-    if (team2Name.innerHTML.includes("Lotus") || team2Name.innerHTML.includes("lotus")) {
+    else if (team2Name.innerHTML.includes("Lotus") || team2Name.innerHTML.includes("lotus")) {
         t2Image.src = './teamLogos/Lotus.png'
     }
 
     // Nightless Kaqzi
-    if (team2Name.innerHTML.includes("Nightless") || team2Name.innerHTML.includes("night")) {
+    else if (team2Name.innerHTML.includes("Nightless") || team2Name.innerHTML.includes("night")) {
         t2Image.src = './teamLogos/Nightless Kaqzi.png'
     }
 
     // Pepe Gang
-    if (team2Name.innerHTML.includes("Pepe") || team2Name.innerHTML.includes("pepe")) {
+    else if (team2Name.innerHTML.includes("Pepe") || team2Name.innerHTML.includes("pepe")) {
         t2Image.src = './teamLogos/Pepe Gang.png'
     }
 
+    // Team Shiiiiish
+    else if (team1Name.innerHTML.includes("Pepe") || team1Name.innerHTML.includes("pepe")) {
+        t2Image.src = './teamLogos/defaultLogo.png'
+    }
+
     // Valkyrie
-    if (team2Name.innerHTML.includes("Valkyrie") || team2Name.innerHTML.includes("valkyrie")) {
+    else if (team2Name.innerHTML.includes("Valkyrie") || team2Name.innerHTML.includes("valkyrie")) {
         t2Image.src = './teamLogos/Valkyrie.png'
+
+        // Default Image
+    } else {
+        t2Image.src = './teamLogos/defaultLogo.png'
     }
 
 
