@@ -77,7 +77,7 @@ function changeTeam1Image() {
     }
 
     // Team Shiiiiish
-    else if (team1Name.innerHTML.includes("Pepe") || team1Name.innerHTML.includes("pepe")) {
+    else if (team1Name.innerHTML.includes("Sh") || team1Name.innerHTML.includes("sh")) {
         t1Image.src = './teamLogos/defaultLogo.png'
     }
 
@@ -123,7 +123,7 @@ function changeTeam2Image() {
     }
 
     // Team Shiiiiish
-    else if (team1Name.innerHTML.includes("Pepe") || team1Name.innerHTML.includes("pepe")) {
+    else if (team1Name.innerHTML.includes("Sh") || team1Name.innerHTML.includes("sh")) {
         t2Image.src = './teamLogos/defaultLogo.png'
     }
 
