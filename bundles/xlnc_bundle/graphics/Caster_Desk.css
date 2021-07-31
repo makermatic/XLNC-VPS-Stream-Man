@@ -74,6 +74,7 @@ body {
 
 .teamImage {
     position: absolute;
+    border: 0;
     width: 182px;
     height: 192px;
     top: 882px;
