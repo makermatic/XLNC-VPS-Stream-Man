@@ -1,4 +1,4 @@
-# XLNC VPS Stream Man 1.2.2
+# XLNC VPS Stream Man 1.2.3
 
 ## Another Scuffed Stream Manager by maker
 XLNC Stream Man is built with NodeCG 1.7.4, a Node.js library designed to make browser based broadcast graphics and make production accessible without any downloads needed. 
