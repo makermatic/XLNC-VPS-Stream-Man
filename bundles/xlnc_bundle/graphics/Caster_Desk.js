@@ -66,9 +66,9 @@ function changeTeam1Image() {
         t1Image.src = './teamLogos/Lotus_white.png'
     }
 
-    // Nightless Kaqzi
-    else if (team1Name.innerHTML.includes("Nightless") || team1Name.innerHTML.includes("nightless")) {
-        t1Image.src = './teamLogos/Nightless Kaqzi_white.png'
+    // Team Shiiish
+    else if (team1Name.innerHTML.includes("Sh") || team1Name.innerHTML.includes("sh")) {
+        t1Image.src = './teamLogos/Sheesh.png'
     }
 
     // Pepe Gang
@@ -80,7 +80,7 @@ function changeTeam1Image() {
     else if (team1Name.innerHTML.includes("Valkyrie") || team1Name.innerHTML.includes("valkyrie")) {
         t1Image.src = './teamLogos/Valkyrie_white.png'
     } else {
-        t1Image.src = './teamLogos/Sheesh.png'
+        t1Image.src = './teamLogos/defaultLogo.png'
     }
 
     console.log('Team 1 image: ', t1Image.src)
@@ -105,9 +105,9 @@ function changeTeam2Image() {
         t2Image.src = './teamLogos/Lotus.png'
     }
 
-    // Nightless Kaqzi
-    else if (team2Name.innerHTML.includes("Nightless") || team2Name.innerHTML.includes("night")) {
-        t2Image.src = './teamLogos/Nightless Kaqzi.png'
+    // Team Shiiish
+    else if (team2Name.innerHTML.includes("Sh") || team2Name.innerHTML.includes("sh")) {
+        t2Image.src = './teamLogos/Sheesh.png'
     }
 
     // Pepe Gang
@@ -119,7 +119,7 @@ function changeTeam2Image() {
     else if (team2Name.innerHTML.includes("Valkyrie") || team2Name.innerHTML.includes("valkyrie")) {
         t2Image.src = './teamLogos/Valkyrie.png'
     } else {
-        t2Image.src = './teamLogos/Sheesh.png'
+        t2Image.src = './teamLogos/defaultLogo.png'
     }
 
 
