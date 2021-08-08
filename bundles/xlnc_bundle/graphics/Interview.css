@@ -10,37 +10,40 @@ body {
 
 #leftCaster {
     position: absolute;
+    top: 849px;
+    left: 274px;
+    width: 430px;
+    height: 89px;
     text-align: center;
-    left: 500px;
-    top: 800px;
-    width: 400px;
-    font: 25px Impact;
+    font: normal normal normal 73px/89px Impact;
+    color: #FFFFFF;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: .7px;
 }
 
 #rightCaster {
     position: absolute;
+    top: 849px;
+    left: 1194px;
+    width: 472px;
+    height: 89px;
     text-align: center;
-    left: 1020px;
-    top: 800px;
-    width: 400px;
-    font: 25px Impact;
+    font: normal normal normal 73px/89px Impact;
+    color: #FFFFFF;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: .7px;
 }
 
 #interviewee {
     position: absolute;
-    top: 867px;
-    left: 1101px;
-    width: 394px;
+    top: 844px;
+    left: 726px;
+    width: 469px;
     height: 98px;
     text-align: center;
-    font: normal normal normal 80px/98px Impact;
-    letter-spacing: 0px;
-    color: #FFFFFF;
+    font: normal normal normal 73px/89px Impact;
     opacity: 1;
+    color: #FFFFFF;
     -webkit-text-stroke-color: black;
     -webkit-text-stroke-width: 2px;
 }
