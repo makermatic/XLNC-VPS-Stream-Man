@@ -1,6 +1,6 @@
 body {
     background: black 0% 0% no-repeat padding-box;
-    background-image: url("layouts/intermission.png");
+    background-image: url("layouts/intermissionMaze.png");
     top: 0px;
     left: 0px;
     width: 1920px;
@@ -17,6 +17,7 @@ body {
     top: 784px;
     width: 850px;
     text-align: center;
+    visibility: hidden;
 }
 
 #team1Name {
@@ -30,15 +31,38 @@ body {
 .teamImage {
     position: absolute;
     border: 0;
-    width: 370px;
-    height: 390px;
-    top: 328px;
+    width: 210px;
+    height: 223px;
+    top: 405px;
 }
 
 #team1Image {
-    left: 485px;
+    left: 476px;
 }
 
 #team2Image {
-    left: 990px;
+    left: 732px;
+}
+
+#team1 {
+    /* Score for Team 1 */
+    left: 523px;
+}
+
+#team2 {
+    /* Score for Team 2 */
+    left: 779px;
+}
+
+.score {
+    /* Master transform properties for Team Names */
+    width: 116px;
+    height: 97px;
+    top: 628px;
+    position: absolute;
+    text-align: center;
+    font: normal normal bold 83px/100px Trebuchet MS;
+    letter-spacing: 0.83px;
+    color: #FFFFFF;
+    opacity: 1;
 }
